@@ -12,3 +12,7 @@ specified learning rate.
 
 After training, simply running a forward propagation pass will show the intelligence that has been baked into the weights and biases of this very simple
 network.
+
+
+Made from scratch (without the use of AI) by Jonathan Farkas
+2026
