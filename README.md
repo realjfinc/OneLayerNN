@@ -1,7 +1,7 @@
 # Single Layer Neural Network
 
 ## Description:
-The neural network has the following behaviour: A1 -> A2 -> A3... Ax
+This neural network has the following structure: A1 -> A2 -> A3... Ax
 
 All weights and biases are initialized randomly, and all that has to be entered by the user is the input activation, the desired output 
 and the number of perceptrons in the network and how many training epochs they want to do. After each epoch, you can print the cost 
