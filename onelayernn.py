@@ -1,12 +1,16 @@
+#2026 made by Jonathan Farkas
 import numpy as np
+
+rng = np.random.default_rng()
 
 #initialize all variables
 numOfNeurons = 3
-weights = [0.75, -2.1]
-biases = [1, -0.7]
-inputValue = 0.5
-desiredOutput = 0.3
-learningRate = 0.25
+weights = [rng.standard_normal() for x in range(numOfNeurons - 1)]
+biases = [rng.standard_normal() for z in range(numOfNeurons - 1)]
+inputValue = float(input("Enter the networks starting activation: "))
+desiredOutput = float(input("Enter the networks desired output (between 0 and 1): "))
+learningRate = 0.01
+
 
 def sigmoidFunction(x):
     return 1 / (1 + np.exp(-x))
@@ -75,6 +79,8 @@ def showCommandMenu():
     print("3- Forward Prop")
     print("4- See weights/biases")
     print("5- Quit")
+
+
 
 while True:
     showCommandMenu()
