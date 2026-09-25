@@ -1,6 +1,8 @@
 # Single Layer Neural Network
 
 ## Description:
+The name 'single layer neural network' is ment to differentiate it from a similar repo on my Github called 'Multi Layer Neural Network'. Although this network can have more than 1 layer, it can only have one neuron in each layer.
+
 This neural network has the following structure: A1 -> A2 -> A3... Ax
 
 All weights and biases are initialized randomly, and all that has to be entered by the user is the input activation, the desired output 
